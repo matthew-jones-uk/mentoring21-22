@@ -95,6 +95,20 @@ $ ./fibonacci 11
 0 1 1 2 3 5 8 13 21 34 55
 ```
 
+#### Extension Task: Generalise for any two starting numbers
+
+Fibonnacci's sequence is part of a whole family of sequences called Lucas sequences,
+where the next number is given by adding the last two.
+
+Generalise your function to the form `int lucas(int a, int b, int n)` 
+where `a` and `b` are the starting values. Then, use this new function to generate
+another lucas sequence, the [lucas numbers](https://en.wikipedia.org/wiki/Lucas_number):
+
+```bash
+$ ./fibonnaci 2 1 8
+2, 1, 3, 4, 7, 11, 18, 29
+```
+
 ### Task 3: Finding a sum in a data set
 
 Given an array of integers, find the two which sum (add) together to make `2020`
