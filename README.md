@@ -57,7 +57,8 @@ What are the values of a, b, and c at the following points in the code?
 
 Edit the `multArrayBy` function in `arrayManipulation.c`.
 
-It should multiply each value in `from` by `n`, then store the result in `dest`.
+It should multiply each value in the array `from` by `n`, then store the result
+at the same index in the array `dest`.
 
 In: `n` = `2`, `from` = `{1, 2, 3}`
 
@@ -84,6 +85,6 @@ If you enjoy these challenges, you may want to try some more. Sites like
 [Project Euler](http://projecteuler.net) and [LeetCode](https://leetcode.com)
 provide challenges to help test your programming skills.
 
-Try some of them out if you want an extra challenge! Some of the mentors may
+Try some of them out if you want to push yourself! Some of the mentors may
 be able to help with these if they've done them before too, so drop a message
 in #programming if you get stuck.
