@@ -8,3 +8,5 @@ answers/*
 /**/*.o
 *.gch
 
+/**/*.out
+

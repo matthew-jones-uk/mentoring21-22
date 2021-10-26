@@ -1,9 +1,7 @@
 #include "helpers/array.h"
 
 void multArrayBy(int n, int *from, int *dest) {
-
     /** WRITE YOUR CODE HERE **/
-
 }
 
 int main(void) {

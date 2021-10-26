@@ -1,23 +1,35 @@
 # Mentoring Worksheet - C
 
+Welcome to the second mentor session! This workshop will have some theory-based
+questions similar to the examples Jamie will show you in lectures, and some
+practical exercises.
+
+To get a copy of this repo (so you can code your own solutions), clone this repo
+by running the following command:
+
+```bash
+git clone https://github.com/aidandagnall/mentoring21-22.git
+```
+
+Your mentor should be running this session with you, so feel free to ask any
+questions to them either during your meeting, or afterwards through Teams or
+Discord.
+
 ## Theory Questions
 
 ### Question 1
 
-How would you declare each of the following datatypes in c?
+How would you declare each of the following datatypes in c? Use any variable
+name you like.
 
-- A length 16 array of integers.
-- A 2D array of 8x8 characters.
-- An array of floats which, at runtime, has the size of an integer variable `n`
-(i.e. a dynamically allocated array of size n).
+- An integer array of length 16.
+- A 2D array of characters, 8x8 length.
+- An integer pointer.
+- An array of integer pointers of size 10.
 
-### Question 2
+- ### Question 2
 
 ```c
-int a, b, c = 20;
-
-/* A */
-
 void func1(int *n) {
     n = 10;
 }
@@ -28,16 +40,20 @@ int func2(int *x, int *y) {
 }
 
 int main() {
-    b = ++c;
-    a = b++;
+    int i, j, k = 20;
+
+    /* A */
+
+    j = ++k;
+    i = j++;
 
     /* B */
 
-    func1(&b);
+    func1(&j);
 
     /* C */
 
-    c = func2(&a, &b);
+    k = func2(&i, &j);
 
     /* D */
 }
@@ -53,7 +69,7 @@ What are the values of a, b, and c at the following points in the code?
 
 ## Practical Tasks
 
-### Array Manipulation
+### Task 1: Array Manipulation
 
 Edit the `multArrayBy` function in `arrayManipulation.c`.
 
@@ -64,7 +80,7 @@ In: `n` = `2`, `from` = `{1, 2, 3}`
 
 Out: `dest` = `{2, 4, 6}`
 
-### Fibonacci
+### Task 2: Fibonacci
 
 Create a function to generate (and print) the fibonacci numbers up to `n`.
 
@@ -79,12 +95,35 @@ $ ./fibonacci 11
 0 1 1 2 3 5 8 13 21 34 55
 ```
 
-### Other programming challenges
+### Task 3: Finding a sum in a data set
+
+Given an array of integers, find the two which sum (add) together to make `2020`
+.
+
+Implement your solution in the `solve` function, where `input` is your array,
+and `size` is the array's length.
+
+Your return value should be `926464`.
+
+### Getting More Practice
+
+The best thing you can do to improve your skills in C (and programming in
+general) is practice. These are some useful websites for you to try out if you
+want to go further.
 
 If you enjoy these challenges, you may want to try some more. Sites like
-[Project Euler](http://projecteuler.net) and [LeetCode](https://leetcode.com)
-provide challenges to help test your programming skills.
+[Project Euler](http://projecteuler.net) is great for mathematical problems, but
+they get hard quickly. If you want to challenge yourself, try out the [Advent Of
+Code](https://adventofcode.com) this year. During Advent (1 - 25 Dec) there's a
+new programming problems every day, you can complete them in any programming
+language you want, and you can join the HackSoc leaderboard to compete with
+other people at the university! (Task 3 was from Advent of Code 2020!)
 
-Try some of them out if you want to push yourself! Some of the mentors may
-be able to help with these if they've done them before too, so drop a message
-in #programming if you get stuck.
+Sites like [LeetCode](https://leetcode.com) or
+[HackerRank](https://www.hackerrank.com) are great for getting practice for
+interview questions when it comes to find a graduate job, year in industry
+placement or internship.  challenges to help test your programming skills.
+
+Try some of them out if you want to push yourself! Some of the mentors may be
+able to help with these if they've done them before too, so drop a message in
+\#programming on the Discord server if you get stuck.
