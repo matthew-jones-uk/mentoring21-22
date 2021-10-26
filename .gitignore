@@ -1,0 +1,10 @@
+# all files without extension (except makefile)
+*
+!/**/
+!*.*
+
+answers/*
+
+/**/*.o
+*.gch
+
