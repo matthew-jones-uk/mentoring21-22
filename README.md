@@ -71,7 +71,7 @@ What are the values of a, b, and c at the following points in the code?
 
 ### Task 1: Array Manipulation
 
-Edit the `multArrayBy` function in `arrayManipulation.c`.
+Edit the `multArrayBy` function in `task1.c`.
 
 It should multiply each value in the array `from` by `n`, then store the result
 at the same index in the array `dest`.
@@ -101,7 +101,8 @@ Given an array of integers, find the two which sum (add) together to make `2020`
 .
 
 Implement your solution in the `solve` function, where `input` is your array,
-and `size` is the array's length.
+and `size` is the array's length. Don't worry about reading in the numbers,
+we've done this for you. Just complete the `solve` function.
 
 Your return value should be `926464`.
 
