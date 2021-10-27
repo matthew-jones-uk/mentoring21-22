@@ -27,11 +27,11 @@ name you like.
 - An integer pointer.
 - An array of integer pointers of size 10.
 
-- ### Question 2
+### Question 2
 
 ```c
 void func1(int *n) {
-    n = 10;
+    *n = 10;
 }
 
 int func2(int *x, int *y) {
@@ -60,7 +60,7 @@ int main() {
 
 ```
 
-What are the values of a, b, and c at the following points in the code?
+What are the values of i, j, and k at the following points in the code?
 
 - A
 - B
