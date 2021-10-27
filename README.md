@@ -100,7 +100,7 @@ $ ./fibonacci 11
 Fibonnacci's sequence is part of a whole family of sequences called Lucas sequences,
 where the next number is given by adding the last two.
 
-Generalise your function to the form `int lucas(int a, int b, int n)`
+Generalise your function to the form `void lucas(int a, int b, int n)`
 where `a` and `b` are the starting values. Then, use this new function to generate
 another lucas sequence, the [lucas numbers](https://en.wikipedia.org/wiki/Lucas_number):
 
@@ -112,7 +112,7 @@ $ ./fibonnaci 2 1 8
 ### Task 3: Finding a sum in a data set (AOC 2020 Day 1)
 
 Given an array of integers, find the two which sum (add) together to make `2020`
-.
+and then return the product of these two numbers.
 
 Implement your solution in the `solve` function, where `input` is your array,
 and `size` is the array's length. Don't worry about reading in the numbers,
