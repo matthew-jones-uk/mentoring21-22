@@ -2,8 +2,7 @@
 #include <stdlib.h>
 
 void fib(int n) {
-    /* Add your code here */
-
+    /** WRITE YOUR CODE HERE **/
 }
 
 int main (int argc, char ** argv) {

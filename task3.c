@@ -9,16 +9,7 @@ TASK:
 */
 int solve(int * input, int size)
 {
-    int i;
-    int j;
-    for (i = 0; i< size; i++) {
-        for(j = 0; j < size; j++) {
-            if (input[j] != input[i] && input[j] + input[i] == 2020) {
-                return input[j]*input[i];
-            }
-        }
-    }
-    return 0;
+    /** WRITE YOUR CODE HERE **/
 }
 
 int main(int argc, char ** argv)
