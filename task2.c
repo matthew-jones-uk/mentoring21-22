@@ -5,6 +5,11 @@ void fib(int n) {
     /** WRITE YOUR CODE HERE **/
 }
 
+void lucas(int n, int a, int b) {
+    /** EXTENSION **/
+    /** Remember to change the function call in main! **/
+}
+
 int main (int argc, char ** argv) {
 
     if (argc != 2)
