@@ -126,13 +126,13 @@ The best thing you can do to improve your skills in C (and programming in
 general) is practice. These are some useful websites for you to try out if you
 want to go further.
 
-If you enjoy these challenges, you may want to try some more. Sites like
-[Project Euler](http://projecteuler.net) is great for mathematical problems, but
-they get hard quickly. If you want to challenge yourself, try out the [Advent Of
-Code](https://adventofcode.com) this year. During Advent (1 - 25 Dec) there's a
-new programming problems every day, you can complete them in any programming
-language you want, and you can join the HackSoc leaderboard to compete with
-other people at the university! (Task 3 was from Advent of Code 2020!)
+Sites like [Project Euler](http://projecteuler.net) is great for mathematical
+problems, but they get hard quickly. If you want to challenge yourself, try out
+the [Advent Of Code](https://adventofcode.com) this year. During Advent (1 - 25
+Dec) there's a new programming problems every day, you can complete them in any
+programming language you want, and you can join the HackSoc leaderboard to
+compete with other people at the university! (Task 3 was from Advent of Code
+2020)
 
 Sites like [LeetCode](https://leetcode.com) or
 [HackerRank](https://www.hackerrank.com) are great for getting practice for
