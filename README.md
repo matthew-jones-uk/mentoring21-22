@@ -126,7 +126,7 @@ The best thing you can do to improve your skills in C (and programming in
 general) is practice. These are some useful websites for you to try out if you
 want to go further.
 
-Sites like [Project Euler](http://projecteuler.net) is great for mathematical
+[Project Euler](http://projecteuler.net) is great for mathematical
 problems, but they get hard quickly. If you want to challenge yourself, try out
 the [Advent Of Code](https://adventofcode.com) this year. During Advent (1 - 25
 Dec) there's a new programming problems every day, you can complete them in any
